@@ -5,7 +5,7 @@ until bye_count >= 3
   input = gets.chomp
   if input == "BYE"
     bye_count += 1
-  elsif input =~ /^[A-Z]+$/
+  elsif input =~ /^[^a-z]+$/
     puts "いやー、" + Random.rand(1930..1950).to_s + "年以来ないねー!"
     bye_count = 0
   else
