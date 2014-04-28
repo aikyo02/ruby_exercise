@@ -1,5 +1,4 @@
 require_relative '../chapter10/execise1'
-require_relative '../chapter10/exercise2_3'
 
 describe "chaper10" do
   describe "clock" do
